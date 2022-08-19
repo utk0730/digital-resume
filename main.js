@@ -10,7 +10,7 @@ document.querySelector("#app").innerHTML = `
 
     <div>
         <h1 id="user-name">Utkarsh Bharti</h1>
-        <p id="bio">Software developer , worked at high growth startups like  <a href="https://upstox.com/" target="_blank">Upstox</a>,  <a href="https://leapscholar.com/" target="_blank">Leap Finance/Leap Scholar</a>, <a href="https://edulastic.com/" target="_blank">Snapwiz | Edulastic</a> ,<a href="https://www.mindtree.com/" target="_blank">Mindtree Ltd</a>.
+        <p id="bio">Software developer , worked with high growth startups like  <a href="https://upstox.com/" target="_blank">Upstox</a>,  <a href="https://leapscholar.com/" target="_blank">Leap Finance/Leap Scholar</a>, <a href="https://edulastic.com/" target="_blank">Snapwiz | Edulastic</a> ,<a href="https://www.mindtree.com/" target="_blank">Mindtree Ltd</a>.
         
         </p>
         <p id="email">👉 utkarsh.bharti30@gmail.com</p>
