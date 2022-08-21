@@ -23,7 +23,7 @@ document.querySelector("#app").innerHTML = `
     <div id="socials--list">
         <a href="https://www.linkedin.com/in/utkarshbharti/" target="_blank">Linkedin</a>
         <a href="https://github.com/utk0730" target="_blank">Github</a>
-        <a href="./assets/ub-resume.pdf" target="_blank">Download Resume</a>
+        <a href="./assets/ub_resume.pdf" target="_blank">Download Resume</a>
     </div>
 </section>
 
@@ -31,7 +31,8 @@ document.querySelector("#app").innerHTML = `
 
 <div id="wrapper--techstack__items">
     <div class="card--techstack"><span>Javascript, Typescript, Node </span></div>
-    <div class="card--techstack"><span>React, Next , Vue, Redux, Webpack </span></div>
+    <div class="card--techstack"><span>React, Next , Vue, Redux, Webpack, Rollup </span></div>
+    <div class="card--techstack"><span>Jest, React-testing-library, Storybook </span></div>
     <div class="card--techstack"><span>Tailwind, Material UI, SASS </span></div>
     <div class="card--techstack"><span>Express, MongoDb, SQL</span></div>
     <div class="card--techstack"><span>Git, Jenkins, Bitbucket</span></div>
@@ -60,7 +61,9 @@ document.querySelector("#app").innerHTML = `
         <p>10/2021 - Present</p>
         <p>Leading the User Onboarding Growth UI team.</p>
         <ul>
-            <li>Migrated the UI from Angular 2 to React 17</li>
+            <li>Migrated the UI from Angular 2 to React 17 with Typescript</li>
+            <li>Added State management in application using Mobx</li>
+            <li>Customised and contributed in building component library and added testing using Jest, React-testing-library</li>
             <li>Achieved 2x growth in User Onboarding post new release from the very first month</li>
             <li>Improved Edit/Rejection flows in Onboarding journey, thus reducing the applicant verification process time from a week to 2-3 days </li>
         </ul>
@@ -73,11 +76,12 @@ document.querySelector("#app").innerHTML = `
         <p>02/2020 - 09/2021</p>
         <p>Founding member of engineering team, launched 2 products within a year :  Leap Finance, Leap Scholar</p>
         <ul>
-            <li>Lead the UI team and build the foundations for products</li>
-            <li>Worked closely with PMs in small teams and helped in initial descisions around project</li>
+            <li>Setup the codebase with React & Next , Typescript, Redux (redux saga),Tailwind, Webpack</li>
+            <li>Build React component libraries and setup Storybook for components</li>
+            <li>Built gamification features for user enagagement,SEO improvements and integrated analytics tools - GA, GTM, Hotjar etc</li>
+            <li>Lead the UI team , worked closely with PMs in small teams and helped in initial descisions around products</li>
             <li>Validated and improved product experience with multiple iterations at 3x speed</li>
             <li>Contributed in building tech team and culture</li>
-            <li>Built gamification features for user enagagement, and integrated analytics tools - GA, GTM, Hotjar etc</li>
            
         </ul>
     </div>
@@ -89,6 +93,8 @@ document.querySelector("#app").innerHTML = `
         <p>05/2019 - 11/2019</p>
         <p>Worked in Edulastic project (an online education assessment tool) as a freelancer in a contract of 7 months </p>
         <ul>
+            <li>Implemented state management with Redux Saga workflow using Duck Pattern </li>
+            <li>Contributed in Migrating project from Js to Typescript</li>
             <li>Build and extended pricing based features</li>
             <li>Worked in Internal applications to improve UI experience</li>
             <li>Supported in house engineering team with production bugs fixes </li>
@@ -102,8 +108,10 @@ document.querySelector("#app").innerHTML = `
         <p>01/2017 - 04/2019</p>
         <p>Started my career with Mindtree Ltd as sofware engineer.</p>
         <ul>
-            <li>Worked with largest FMCG brand in India. Build a process tracking platform using SAP fiori to improve their in house supply chain process by 2x</li>
-            <li>Build and validated multiple POCS using web technologies - React, Node </li>
+            <li>Worked on SAP applications - SAP fiori, SAP ABAP and web apps - React, Next </li>
+            <li>Build a process tracking platform for the largest FMCG brand in India using SAP fiori to improve their in house supply chain process by 2x</li>
+            <li>Requirement gathering from clients and actively contributed in defining implementation roadmap </li>
+            <li>Build and validated multiple POCS using web technologies - React, Node. Extended/build custom features for clients </li>
         </ul>
     </div>
 </section>
