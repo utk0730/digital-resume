@@ -23,7 +23,7 @@ document.querySelector("#app").innerHTML = `
     <div id="socials--list">
         <a href="https://www.linkedin.com/in/utkarshbharti/" target="_blank">Linkedin</a>
         <a href="https://github.com/utk0730" target="_blank">Github</a>
-        <a href="./assets/ub_resume.pdf" target="_blank">Download Resume</a>
+        <a href="./assets/utkarsh-resume.pdf" target="_blank">Download Resume</a>
     </div>
 </section>
 
